@@ -8,3 +8,9 @@ SpeedLimit = 20
 
 NameOfRunner = input("Name of Runner: \n")
 TimeTaken = float(input("Time Taken: "))
+
+SpeedOfRunner = Distance / TimeTaken
+
+SpeedInMPH = SpeedOfRunner * MStoMPH
+
+print (NameOfRunner + " ran the 100M race in: " + str(round(SpeedInMPH,2)) + "MPH")
